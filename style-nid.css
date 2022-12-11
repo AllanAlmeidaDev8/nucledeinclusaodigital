@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --cor0: #A5E6FA;
+    --cor1: #40A3E6;
+    --cor2: #006CFA;
+    --cor3: #003DE6;
+    --cor4: #0D25FF;
+    --cor5: #000b69;
+    
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    
+}
+header{
+    background-image: linear-gradient(to right, var(--cor2), var(--cor5));
+    margin: auto;
+    margin-top: -10px;
+
+}
+.bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: -75px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor5));
+}
+
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(217, 237, 255);
+    padding-left: 50px;
+}
+
+nav {
+    background-image: linear-gradient(to right, var(--cor2), var(--cor5));
+    padding-left:  50px;
+    box-shadow: 1px 1px 2px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+
+
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    padding: auto;
+    
+}
+main {
+    background-color: white;
+    background-image: url(imagens/inclusao-digital.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    
+}
+
+main p{
+    margin: 15px 0px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.3em;
+    font-size: 1.1em;
+
+}
+
+article {
+    background-color: #95adcc77;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 9px 0px black;
+    padding-bottom: 2em;
+    
+    
+}
+
+
+aside > p{
+    background-color: rgba(10, 189, 243, 0.342);
+    padding: auto;
+    margin: 0px;
+    padding-left: 10px;
+    font-size: small;
+    border-radius: 10px;
+}
+
+.artigo >a {
+    text-decoration: none;
+    color: black;
+}
+.artigo>a:hover {
+    background-color: rgba(16, 147, 207, 0.349);
+    color: white;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+picture{
+    padding: auto;
+}
+
+footer {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor5));
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
